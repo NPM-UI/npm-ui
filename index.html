@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  </head>
+  <body>
+        <div id="mainMenu">
+            <ul>
+                <li>
+                    <button class="open-project btn btn-default">Open Project</button>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <h2>Package Name <small>version: 0.0.1</small></h2>
+            <p>Description</p>
+            <p>Author: <b>Yaroslav Basovskyy</b></p>
+            <div id="dependancies"></div>
+        </div>
+        <div id="footer"></div>
+  </body>
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+
+</html>

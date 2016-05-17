@@ -1,0 +1,27 @@
+{
+  "name": "npm-ui",
+  "version": "1.0.0",
+  "description": "npm ui manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uc2pac/npm-ui.git"
+  },
+  "keywords": [
+    "npm",
+    "ui"
+  ],
+  "author": "yaroslav.basovskyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uc2pac/npm-ui/issues"
+  },
+  "homepage": "https://github.com/uc2pac/npm-ui#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.0",
+    "electron-reload": "^0.3.0"
+  }
+}
